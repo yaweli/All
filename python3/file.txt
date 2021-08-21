@@ -1,0 +1,8 @@
+class1.py
+class2.py
+collection.py
+file.txt
+mysocket.py
+__pycache__
+README.md
+tryurl.py

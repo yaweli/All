@@ -1,10 +1,8 @@
 # try url
-from socket import *
+from mysocket import GetUrl
 
-print(100)
-try1=GetUrl("https://www.news.com")
-print(200)
-ans=try1.ans()
-print(300)
+
+
+Hsocket=GetUrl("https://www.ynetnews.com/category/3089")
+ans=Hsocket.data()
 print(ans)
-print(400)

@@ -1,10 +1,11 @@
 #
 #
-# kic (c) 2020 , utility collection
+# Python utility collection
 #
 print("Top ")
 
 # file open
+#----------------#
 st=open("file.txt")
 line=st.readline()
 st.close()
@@ -18,6 +19,7 @@ f.close
 #
 # call to http url
 #
+#----------------#
 import http.client
 # h4 = http.client.HTTPConnection('www.python.org', 80, timeout=10)
 conn = http.client.HTTPSConnection("www.python.org")
@@ -29,6 +31,11 @@ data1 = r1.read()
 conn.close()
 print(f"Http data = {data1} ")
 
+#
+# http url:
+#----------------#
+# see files mysocket.py , tryurl.py with class
+#
 #
 # dictionary (hash table) , not sorted
 # 
@@ -48,8 +55,10 @@ for x in sorted(dict.keys()):
 
 # listen to http request
 #
+#----------------#
 # classes
-#
+# also see (class1.py + class2.py)
+#----------------#
 class Customer:
     istate0 = 1
     # constructor
@@ -86,7 +95,6 @@ with con:
         last=row[0]
 with con:
     con.execute(f"INSERT INTO USER (id, name, age) values({last+1}, 'eli', 32)")
-
 #
 #
 # generators
