@@ -1,6 +1,10 @@
 # try url
-from socket import GetUrl
+from socket import *
 
-try=GetUrl()
-try=try.open("https://www.news.com")
-print(try)
+print(100)
+try1=GetUrl("https://www.news.com")
+print(200)
+ans=try1.ans()
+print(300)
+print(ans)
+print(400)
