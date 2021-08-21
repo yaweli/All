@@ -1,9 +1,9 @@
 // import { throws } from "assert";
 // import { reduceEachLeadingCommentRange } from "typescript";
 
-// sHORT GUIDE TO TYPE SCRIPT:
-
-
+// Type script collection practice
+// Warning - do not EDIT the *.js files //
+//////////////////////////////////////////
 
 console.log("started...");
 
@@ -154,8 +154,8 @@ let drawPoint1 = ( point : Point) => {
 drawPoint1({x:200,y:300}) ;
 
 
-  const user: User = new UserAccount("Murphy", 1);
-  console.log(user);
-  console.log('user='+user);
-  console.log('user.name='+user.name);
-  console.log("ended...");
+const user: User = new UserAccount("Murphy", 1);
+console.log(user);
+console.log('user='+user);
+console.log('user.name='+user.name);
+console.log("ended...");
